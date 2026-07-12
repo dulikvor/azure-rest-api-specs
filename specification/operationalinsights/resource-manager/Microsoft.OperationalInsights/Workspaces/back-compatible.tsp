@@ -82,7 +82,6 @@ using Microsoft.OperationalInsights;
   DeletedWorkspacesOperationGroup.listByResourceGroup,
   "DeletedWorkspaces"
 );
-@@clientName(KeyVaultProperties, "keyVaultProperties");
 @@clientName(SearchGetSchemaResponse.metadata, "Metadata");
 /**
  * we add this model  in order to replace subscriptions model in CommonTypes with this model via alternateType decorator
